@@ -1,56 +1,7 @@
-body {
-	background-color: black;
-	background-image:url('gifs-de-supermercado-1.gif');
+html, body {
+  margin: 0;
+  padding: 0;
 }
-
-#banner {
-	width:50%;
-}
-
-.principal{
-	background: #CCCCCC;
-	padding: 30px;
-}
-
-.titulo-principal {
-	padding-left: 20px;
-	color: #FF0000;
-}
-
-.titulo-centralizado {
-	text-align: center;
-	color: White;
-	padding: 30px;
-}
-
-p {
-	text-align: center;
-}
-
-#missao {
-	font-size: 20px
-}
-
-em strong {
-	color: #FF0000;
-}
-
-.itens {
-	font-style: italic
-}
-
-.corte{
-	background: #FFFFFF;
-	padding: 20px;
-}
-
-ul {
-	display: inline-block;
-	vertical-align: top;
-	width: 20%;
-	margin-right: 15%;
-}
-
-.imagemcorte {
-	width: 60%;
+canvas {
+  display: block;
 }
